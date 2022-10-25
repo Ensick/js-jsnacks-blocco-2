@@ -79,6 +79,23 @@ for(let i = 0; i < numeriInteri.length; i++){
 
 /* Snack-4 */
 
+let listaUno = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+let listaDue = [1, 2, 3, 4, 5]
+
+for(let i = 0; i < listaUno.length; i++){
+
+    if(listaUno.length > listaDue.length){
+
+        listaDue.push(1)
+
+    }else if(listaUno.length === listaDue.length){
+        break;
+    }
+
+    console.log( listaUno)
+    console.log(listaDue)
+}
 
 
 
