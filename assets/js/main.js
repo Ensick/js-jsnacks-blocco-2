@@ -11,7 +11,7 @@ Crea due array che hanno un numero di elementi diversi.  Aggiungi elementi allâ€
 
 /* Snack-1/ */
 
-let numero = parseInt(prompt("Inserici un nemero"));
+/* et numero = parseInt(prompt("Inserici un nemero"));
 
 if(numero % 2 === 0){
 
@@ -23,9 +23,80 @@ if(numero % 2 === 0){
     console.log(numero);
 
 }
-
+ */
 
 /* Snack-2/ */
+
+/* 
+const nomi = ["Edoardo", "Marco","Massimo","Silvio"];
+
+const cognomi = ["Rossi","Verdi","Bianchi","Neri"];
+
+console.log(nomi[parseInt(Math.random() * nomi.length)])
+
+let nomeRandom = "";
+
+let cognomeRandom = "";
+
+let nomiCognomiRandom = []
+
+for(let i = 0; i < 10; i++){
+
+    nomeRandom = nomi[parseInt(Math.random() * nomi.length)]
+
+    cognomeRandom = cognomi[parseInt(Math.random() * cognomi.length)]
+
+    let nomeCompleto = `${nomeRandom} ${cognomeRandom}`
+
+    nomiCognomiRandom.push(nomeCompleto)
+
+    console.log(nomiCognomiRandom)
+
+}
+ */
+
+/* Snack-3 */
+/* 
+let numeriInteri = [1 , 2 , 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+let somma = 0
+
+for(let i = 0; i < numeriInteri.length; i++){
+
+    if(numeriInteri[i] % 2 === 0) {
+
+    console.log("Ciao sono un numero pari")
+    
+    }else{
+
+        somma += numeriInteri[i]
+
+        console.log( somma )
+
+    }
+    
+} */
+
+/* Snack-4 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
